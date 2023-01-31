@@ -134,11 +134,12 @@ img {
 /* MEDIA QUERIES (MEDIUM DEVICES)*/
 @media screen and (max-width: 1024px) {
   .container {
-    background-color:#222;
+    background-color: #222;
     width: var(--container-width-md);
   }
   section {
-    margin-top: 6rem;
+    margin-top: 8rem;
+    height: 100vh;
   }
 }
 
