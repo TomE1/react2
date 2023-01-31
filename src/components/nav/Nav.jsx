@@ -8,9 +8,10 @@ import { MdOutlineContactless } from 'react-icons/md';
 import { IoMdWalk } from 'react-icons/io';
 
 const Nav = () => {
+  // const [activeNav, setActiveNav] = useState('#');
   return (
     <nav>
-      <a href='#'>
+      <a href='#' className='active'>
         <AiOutlineHome />
       </a>
       <a href='#about'>
