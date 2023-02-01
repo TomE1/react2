@@ -6,12 +6,13 @@ import { BsFillBookFill } from 'react-icons/bs';
 import { FcServices } from 'react-icons/fc';
 import { MdOutlineContactless } from 'react-icons/md';
 import { IoMdWalk } from 'react-icons/io';
+import { useState } from 'react';
 
 const Nav = () => {
   // const [activeNav, setActiveNav] = useState('#');
   return (
     <nav>
-      <a href='#' className='active'>
+      <a href='#'>
         <AiOutlineHome />
       </a>
       <a href='#about'>
