@@ -27,12 +27,15 @@
   --borderYellow: 3px solid #ffff00;
   --borderOrange: 3px solid #ff7f00;
   --borderRed: 3px solid #ff0000;
+   
 
   /* Other borders */
   --borderBrown: 3px solid brown;
   --borderBisque: 3px solid bisque;
   --borderKhaki: 3px solid khaki;
-  --borderGray: 3px solid gray;
+  --borderGray: 3px solid gray; 
+  
+  
 
   --transition: all 400ms ease;
 
