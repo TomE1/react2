@@ -24,6 +24,9 @@ const Nav = () => {
       <a href='#services'>
         <FcServices />
       </a>
+      <a href='#portfolio'>
+        <FcServices />
+      </a>
       <a href='#testimonials'>
         <IoMdWalk />
       </a>
