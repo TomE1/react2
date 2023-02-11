@@ -13,7 +13,7 @@ const Contact = () => {
       <div className='container contact__container'>
         <div className='contact__options'>
           <article className='contact__option'>
-            <AiOutlineMail />
+            <AiOutlineMail className='contact__option-icon' />
             <h4>Email</h4>
             <h5>tomevans@gmail.com</h5>
             <a href='mailto:tomevans@gmail.com' target='blank'>
@@ -21,7 +21,7 @@ const Contact = () => {
             </a>
           </article>
           <article className='contact__option'>
-            <RiMessengerLine />
+            <RiMessengerLine className='contact__option-icon' />
             <h4>Messenger</h4>
             <h5>Tom Evans</h5>
             <a href='https://m.me/' target='blank'>
@@ -29,8 +29,8 @@ const Contact = () => {
             </a>
           </article>
           <article className='contact__option'>
-            <BsWhatsapp />
-            <h4>Wnatsapp</h4>
+            <BsWhatsapp className='contact__option-icon' />
+            <h4>Wnatsapp</h4> 
             <h5>tomevans@gmail.com</h5>
             <a href='https://api.whatsapp.com/send?phone=84' target='blank'>
               Send a Message
@@ -50,7 +50,7 @@ const Contact = () => {
           <textarea
             name='message'
             rows='7'
-            placeholder='Your Message' 
+            placeholder='Your Message'
             required
           ></textarea>
           <button type='submit' className='btn btn-primary'>
