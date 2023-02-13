@@ -1,5 +1,8 @@
 import React from 'react';
 import './Footer.css';
+import { CiFacebook } from 'react-icons/ci';
+import { AiOutlineTwitter } from 'react-icons/ai';
+import { BsYoutube } from 'react-icons/bs';
 
 const Footer = () => {
   return (
@@ -30,10 +33,24 @@ const Footer = () => {
           <a href='#contact'>Contact</a>
         </li>
       </ul>
+
+      <div className='footer__socials'>
+        <a href='https://facebook.com'>
+          <CiFacebook />
+        </a>
+        <a href='https://facebook.com'>
+          <AiOutlineTwitter />
+        </a>
+        <a href='https://facebook.com'>
+          <BsYoutube />
+        </a>
+      </div>
+
+      <div className='footer__copyright'>
+        <small>&copy; TomE Web >> all rights reserved bro!</small>
+      </div>
     </footer>
   );
 };
-
-
 
 export default Footer;
